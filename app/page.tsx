@@ -23,7 +23,7 @@ function introduction(name: String){
 
 function favoritesList(){
   return (
-  <main>
+  <div>
     <h3>My Favorite Video games</h3>
     <ul>
       <li>World of Warcraft</li>
@@ -32,16 +32,16 @@ function favoritesList(){
       <li>Skyrim</li>
       <li>Minecraft</li>
     </ul>
-  </main>
+  </div>
   );
 }
 
 function website(){
   return(
-    <main>
+    <div>
       <h3>Click here....</h3>
         <a href="https://en.wikipedia.org/wiki/Dog">Important Dog Information</a>
-      </main>
+      </div>
   )
 }
 
